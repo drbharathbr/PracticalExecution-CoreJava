@@ -8,4 +8,4 @@ public class FahrenheitToCelsius {
         temperature=((temperature - 32)*5)/9;
         System.out.println("The converted celsius value is "+temperature);
     }
-}
+
