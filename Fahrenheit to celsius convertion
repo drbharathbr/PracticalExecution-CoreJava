@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class FahrenheitToCelsius {
+    public static void main(String[] arguments){
+        float temperature;
+        Scanner in= new Scanner(System.in);
+        System.out.println("Give Fahrenheit as the input to convert it to celsius:");
+        temperature=in.nextInt();
+        temperature=((temperature - 32)*5)/9;
+        System.out.println("The converted celsius value is "+temperature);
+    }
+}
