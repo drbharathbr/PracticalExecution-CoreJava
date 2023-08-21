@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class swaping {
+    public static void main(String... arguments){
+        int variable1;      //variable declaration
+        int variable2;
+        int variable3;
+        System.out.println("Type the value for 'variable1' as well as'variable2':\n");
+        Scanner in = new Scanner(System.in);
+        variable1 = in.nextInt();
+        variable2 = in.nextInt();
+        System.out.println("\nVariables before swaping\nvariable1="+variable1+"\nvariable2="+variable2);
+        variable3=variable1;
+        variable1=variable2;
+        variable2=variable3;
+        System.out.println("\nVariables after swaping\nvariable1="+variable1+"\nvariable2="+variable2);
+    }
+}
