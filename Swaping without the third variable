@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Swaping_without_third_variable {
+    public static void main (String... arguments){
+        float variable1;   //x=10;
+        float variable2; //y=5;
+        System.out.println("Type the values for 'variable1'as well as 'variable2' respectively:");
+        Scanner in =  new Scanner(System.in);
+        variable1= in.nextInt();
+        variable2 = in.nextInt();
+        System.out.println("Variables before swaping\nVariable1="+variable1+"\nVariable2="+variable2);
+        variable1=variable1+variable2;   //x=x+y;(x=10+5)
+        variable2=variable1-variable2;   //y=x-y;(y=15-5)
+        variable1=variable1-variable2;   //x=x-y;(x=15-10)
+        System.out.println("Variables after swaping\nVariable1="+variable1+ "\n" + "Variable2=" +variable2);
+        //x=5;
+        //y=10;
+    }
+}
