@@ -1,1 +1,2 @@
 # PracticalExecution-CoreJava
+In the modern operating systems such windows(10,11,etc...),linux distributions such as(manjaro,ubuntu) may recognize that they can execute several programs or task simultaneously.This ability is known as multitasking .In system terminology ,it is known as multithreading Let us assume an example in marriage there are many task would carried out simultaneously with is independent to each other,finally all those task would join or combine together to give final outcome.
